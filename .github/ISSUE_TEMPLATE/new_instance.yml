@@ -8,7 +8,7 @@ body:
         An instance is a complete, reproducible problem: a config dataclass, scene generators with
         difficulty classes, an **independent** data generator (a finer grid, float64 or a different
         scheme — never the inversion operator itself), the problem builder, a default curriculum,
-        metrics and baselines. See [A new instance](https://continuumcoder.github.io/NEFI/tutorials/04_new_instance/).
+        metrics and baselines. See [A new instance](https://cab-lab-princeton.github.io/NEFI/tutorials/04_new_instance/).
   - type: input
     id: system
     attributes:

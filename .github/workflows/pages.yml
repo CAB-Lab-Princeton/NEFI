@@ -1,7 +1,7 @@
 name: pages
 
 # Builds the documentation site with MkDocs Material and publishes it to GitHub Pages
-# (https://continuumcoder.github.io/NEFI/). Pull requests that touch the docs only build it, in
+# (https://cab-lab-princeton.github.io/NEFI/). Pull requests that touch the docs only build it, in
 # strict mode, so broken links and missing pages fail before they reach main.
 # GitHub Pages must be enabled once in the repository settings with "GitHub Actions" as the
 # source; until then the deploy job cannot create a deployment.

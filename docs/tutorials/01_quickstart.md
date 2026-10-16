@@ -14,7 +14,7 @@ nefi --version
 ```
 
 For development (tests, examples, the configs under `configs/`), install from source:
-`git clone https://github.com/ContinuumCoder/NEFI.git && cd NEFI && pip install -e ".[dev]"`.
+`git clone https://github.com/CAB-Lab-Princeton/NEFI.git && cd NEFI && pip install -e ".[dev]"`.
 
 ## From Python
 

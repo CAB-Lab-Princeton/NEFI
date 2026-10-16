@@ -43,10 +43,10 @@ dev = [
 nefi = "nefi.cli:main"
 
 [project.urls]
-Homepage = "https://github.com/ContinuumCoder/NEFI"
-Documentation = "https://continuumcoder.github.io/NEFI/"
-Repository = "https://github.com/ContinuumCoder/NEFI"
-Issues = "https://github.com/ContinuumCoder/NEFI/issues"
+Homepage = "https://github.com/CAB-Lab-Princeton/NEFI"
+Documentation = "https://cab-lab-princeton.github.io/NEFI/"
+Repository = "https://github.com/CAB-Lab-Princeton/NEFI"
+Issues = "https://github.com/CAB-Lab-Princeton/NEFI/issues"
 Lab = "https://cablab.scholar.princeton.edu"
 
 [tool.setuptools.packages.find]

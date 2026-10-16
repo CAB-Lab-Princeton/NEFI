@@ -346,13 +346,13 @@ explains why soft-constrained PINNs fit the data but not the interior.
 === "Latest development version"
 
     ```bash
-    pip install git+https://github.com/ContinuumCoder/NEFI.git
+    pip install git+https://github.com/CAB-Lab-Princeton/NEFI.git
     ```
 
 === "From source (development)"
 
     ```bash
-    git clone https://github.com/ContinuumCoder/NEFI.git && cd NEFI
+    git clone https://github.com/CAB-Lab-Princeton/NEFI.git && cd NEFI
     pip install -e ".[dev]"            # + pytest, ruff, matplotlib, typer, rich, scikit-image
     make test                          # fast CPU suite
     ```
@@ -360,7 +360,7 @@ explains why soft-constrained PINNs fit the data but not the interior.
 === "GPU server (conda)"
 
     ```bash
-    git clone https://github.com/ContinuumCoder/NEFI.git && cd NEFI
+    git clone https://github.com/CAB-Lab-Princeton/NEFI.git && cd NEFI
     conda env create -f environment.yml && conda activate nefi   # python 3.11, torch, nefi[dev]
     nefi run configs/nv_relaxometry_paper.yaml --device cuda      # NeTMY at paper scale
     ```

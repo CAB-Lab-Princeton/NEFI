@@ -36,7 +36,7 @@ representation size, initialization, loss weights, learning rate, curriculum, st
 automatically, logged, stored in `problem.meta["auto"]`, and overridable by a keyword argument.
 Three complete mini-cases (saturating camera, 30 % k-space MRI with a hash grid, 1-D
 photoacoustics through a differentiable wave solver) are in
-[`examples/bring_your_own_problem.py`](https://github.com/ContinuumCoder/NEFI/blob/main/examples/bring_your_own_problem.py).
+[`examples/bring_your_own_problem.py`](https://github.com/CAB-Lab-Princeton/NEFI/blob/main/examples/bring_your_own_problem.py).
 
 ### What the forward may be
 

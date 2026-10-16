@@ -9,7 +9,7 @@ kinds of components people usually need, and the rules every change must follow.
 ## Setup
 
 ```bash
-git clone https://github.com/ContinuumCoder/NEFI.git && cd NEFI
+git clone https://github.com/CAB-Lab-Princeton/NEFI.git && cd NEFI
 pip install -e ".[dev]"      # torch, numpy, scipy, pyyaml, tqdm + pytest, ruff, matplotlib, typer
 pre-commit install           # optional: ruff on every commit
 make test                    # fast CPU suite (pytest -q -m "not slow")
@@ -109,7 +109,7 @@ automatically get the right solver dispatch (`problem.meta["solver"]`). See
 
 ## Documentation
 
-The site at <https://continuumcoder.github.io/NEFI/> is built from `docs/` with MkDocs Material;
+The site at <https://cab-lab-princeton.github.io/NEFI/> is built from `docs/` with MkDocs Material;
 every page is plain markdown that also reads well on GitHub.
 
 ```bash
@@ -120,7 +120,7 @@ mkdocs build --strict            # broken links and missing pages fail the build
 
 - A new instance gets `docs/instances/<name>.md` with the "At a glance" card at the top (problem,
   unknown, physics, measurement, difficulty classes, baselines, metrics, run command) and an entry
-  in the `nav` of `mkdocs.yml`; the [instance catalogue](https://continuumcoder.github.io/NEFI/instances/) lists it.
+  in the `nav` of `mkdocs.yml`; the [instance catalogue](https://cab-lab-princeton.github.io/NEFI/instances/) lists it.
 - Figures come from runs, never from hand-made images: `python examples/gallery.py --budget 0.2
   --out runs/gallery --html` and then `python tools/build_site_assets.py` refresh the gallery
   images and the interactive 3-D viewers under `docs/assets/` (each image stays below 300 kB);

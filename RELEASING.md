@@ -10,7 +10,7 @@ not part of the documentation site.
    pending publisher** at https://pypi.org/manage/account/publishing/).
 2. Register a trusted publisher with:
    - PyPI project name: `nefi`
-   - Owner: `ContinuumCoder`
+   - Owner: `CAB-Lab-Princeton`
    - Repository name: `NEFI`
    - Workflow name: `release.yml`
    - Environment name: `pypi`

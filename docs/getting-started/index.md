@@ -27,7 +27,7 @@ and the whole test suite; paper-scale runs go to a CUDA machine.
 === "Latest development version"
 
     ```bash
-    pip install git+https://github.com/ContinuumCoder/NEFI.git
+    pip install git+https://github.com/CAB-Lab-Princeton/NEFI.git
     ```
 
     The current state of the `main` branch.
@@ -35,7 +35,7 @@ and the whole test suite; paper-scale runs go to a CUDA machine.
 === "From source"
 
     ```bash
-    git clone https://github.com/ContinuumCoder/NEFI.git && cd NEFI
+    git clone https://github.com/CAB-Lab-Princeton/NEFI.git && cd NEFI
     pip install -e ".[dev]"      # + pytest, ruff, mypy, scikit-image, matplotlib, typer, rich
     make test                    # fast CPU suite: python -m pytest -q -m "not slow"
     ```
@@ -45,7 +45,7 @@ and the whole test suite; paper-scale runs go to a CUDA machine.
 === "Conda (GPU servers)"
 
     ```bash
-    git clone https://github.com/ContinuumCoder/NEFI.git && cd NEFI
+    git clone https://github.com/CAB-Lab-Princeton/NEFI.git && cd NEFI
     conda env create -f environment.yml && conda activate nefi    # python 3.11, torch, nefi[dev]
     python -c "import torch; print(torch.__version__, torch.cuda.is_available())"
     ```

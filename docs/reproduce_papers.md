@@ -5,7 +5,7 @@ This runbook lists the exact commands that regenerate the headline tables of NeT
 check before comparing numbers. Everything runs from a fresh clone; nothing is downloaded.
 
 ```bash
-HOST=gpu-server scripts/sync_to_server.sh     # or: git clone https://github.com/ContinuumCoder/NEFI.git
+HOST=gpu-server scripts/sync_to_server.sh     # or: git clone https://github.com/CAB-Lab-Princeton/NEFI.git
 ssh gpu-server
 cd ~/nefi && pip install -e ".[dev]" && nefi list instances
 make smoke                                     # ~1 min sanity check on the GPU node

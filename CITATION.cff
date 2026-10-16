@@ -10,8 +10,8 @@ authors:
 version: 0.1.1
 date-released: "2026-09-27"
 license: MIT
-repository-code: "https://github.com/ContinuumCoder/NEFI"
-url: "https://continuumcoder.github.io/NEFI/"
+repository-code: "https://github.com/CAB-Lab-Princeton/NEFI"
+url: "https://cab-lab-princeton.github.io/NEFI/"
 abstract: >-
   nefi recovers hidden physical fields from a single measurement without training data. The
   unknown is represented by a coordinate neural field or any other parameterization, pushed

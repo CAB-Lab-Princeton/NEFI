@@ -1,4 +1,4 @@
-# Documentation site of nefi — https://continuumcoder.github.io/NEFI/
+# Documentation site of nefi — https://cab-lab-princeton.github.io/NEFI/
 #
 #   pip install -r docs/requirements.txt
 #   mkdocs serve            # live preview at http://127.0.0.1:8000/NEFI/
@@ -15,15 +15,15 @@ site_description: >-
   field through a differentiable model of the instrument. The physics is enforced exactly and no
   training data is needed.
 site_author: CAB Lab, Princeton University
-site_url: https://continuumcoder.github.io/NEFI/
-repo_url: https://github.com/ContinuumCoder/NEFI
-repo_name: ContinuumCoder/NEFI
+site_url: https://cab-lab-princeton.github.io/NEFI/
+repo_url: https://github.com/CAB-Lab-Princeton/NEFI
+repo_name: CAB-Lab-Princeton/NEFI
 edit_uri: edit/main/docs/
 docs_dir: docs
 use_directory_urls: true
 copyright: >-
   Copyright &copy; 2026 <a href="https://cablab.scholar.princeton.edu">CAB Lab, Princeton University</a> &middot;
-  <a href="https://github.com/ContinuumCoder/NEFI/blob/main/LICENSE">MIT License</a>
+  <a href="https://github.com/CAB-Lab-Princeton/NEFI/blob/main/LICENSE">MIT License</a>
 
 theme:
   name: material
@@ -94,7 +94,7 @@ extra:
   generator: false
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/ContinuumCoder/NEFI
+      link: https://github.com/CAB-Lab-Princeton/NEFI
       name: nefi on GitHub
     - icon: simple/arxiv
       link: https://arxiv.org/abs/2605.13988

@@ -33,6 +33,6 @@ If you use nefi, please cite the papers it implements.
 }
 ```
 
-The repository also ships a [`CITATION.cff`](https://github.com/ContinuumCoder/NEFI/blob/main/CITATION.cff)
+The repository also ships a [`CITATION.cff`](https://github.com/CAB-Lab-Princeton/NEFI/blob/main/CITATION.cff)
 file (GitHub's "Cite this repository" button) describing the software and both papers.
 More about them on [the papers page](../research/papers.md).

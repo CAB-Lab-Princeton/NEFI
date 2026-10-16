@@ -11,9 +11,9 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/ContinuumCoder/NEFI/actions/workflows/ci.yml"><img alt="CI" src="https://github.com/ContinuumCoder/NEFI/actions/workflows/ci.yml/badge.svg"></a>
-  <a href="https://github.com/ContinuumCoder/NEFI/actions/workflows/pages.yml"><img alt="Docs build" src="https://github.com/ContinuumCoder/NEFI/actions/workflows/pages.yml/badge.svg"></a>
-  <a href="https://continuumcoder.github.io/NEFI/"><img alt="Documentation" src="https://img.shields.io/badge/docs-continuumcoder.github.io%2FNEFI-5a3bd6"></a>
+  <a href="https://github.com/CAB-Lab-Princeton/NEFI/actions/workflows/ci.yml"><img alt="CI" src="https://github.com/CAB-Lab-Princeton/NEFI/actions/workflows/ci.yml/badge.svg"></a>
+  <a href="https://github.com/CAB-Lab-Princeton/NEFI/actions/workflows/pages.yml"><img alt="Docs build" src="https://github.com/CAB-Lab-Princeton/NEFI/actions/workflows/pages.yml/badge.svg"></a>
+  <a href="https://cab-lab-princeton.github.io/NEFI/"><img alt="Documentation" src="https://img.shields.io/badge/docs-cab--lab--princeton.github.io%2FNEFI-5a3bd6"></a>
   <a href="LICENSE"><img alt="License: MIT" src="https://img.shields.io/badge/license-MIT-blue.svg"></a>
   <img alt="Python 3.10+" src="https://img.shields.io/badge/python-3.10%2B-3776ab.svg">
   <img alt="PyTorch 2.1+" src="https://img.shields.io/badge/pytorch-2.1%2B-ee4c2c.svg">
@@ -22,11 +22,11 @@
 </p>
 
 <p align="center">
-  <a href="https://continuumcoder.github.io/NEFI/"><b>Documentation</b></a> ·
-  <a href="https://continuumcoder.github.io/NEFI/getting-started/">Get started</a> ·
-  <a href="https://continuumcoder.github.io/NEFI/gallery/">Gallery</a> ·
-  <a href="https://continuumcoder.github.io/NEFI/gallery/3d/">Interactive 3-D</a> ·
-  <a href="https://continuumcoder.github.io/NEFI/research/papers/">Papers</a>
+  <a href="https://cab-lab-princeton.github.io/NEFI/"><b>Documentation</b></a> ·
+  <a href="https://cab-lab-princeton.github.io/NEFI/getting-started/">Get started</a> ·
+  <a href="https://cab-lab-princeton.github.io/NEFI/gallery/">Gallery</a> ·
+  <a href="https://cab-lab-princeton.github.io/NEFI/gallery/3d/">Interactive 3-D</a> ·
+  <a href="https://cab-lab-princeton.github.io/NEFI/research/papers/">Papers</a>
 </p>
 
 <p align="center">
@@ -99,35 +99,35 @@ print(nefi.quick_report(result, problem, gt=x_true))   # did the fit reach the n
 
 `from_forward` chooses the representation, initialization, noise level, loss weights, learning
 rate and curriculum; every decision is logged and overridable
-([guide](https://continuumcoder.github.io/NEFI/byop/)).
+([guide](https://cab-lab-princeton.github.io/NEFI/byop/)).
 
 ## Gallery
 
 <p align="center">
   <img src="docs/assets/gallery/overview-2d.png" width="880" alt="Twelve 1-D and 2-D systems, each as ground truth, measurement and reconstruction with PSNR, solve time and steps">
 </p>
-<p align="center"><sub>Twelve of the 17 registered systems as ground truth · measurement · reconstruction — one gallery run on a CPU. <a href="https://continuumcoder.github.io/NEFI/gallery/">Browse the gallery →</a></sub></p>
+<p align="center"><sub>Twelve of the 17 registered systems as ground truth · measurement · reconstruction — one gallery run on a CPU. <a href="https://cab-lab-princeton.github.io/NEFI/gallery/">Browse the gallery →</a></sub></p>
 
 ## What's inside
 
 | | |
 |---|---|
-| **Representations** | neural fields with annealed Fourier features, grids, hash grids, low-rank, level sets, Gaussian splats, Deep Decoder; geometric fields (layered media, anomalies, star shapes, warps) with adaptive annealing, capacity growth and held-out selection — [geometry](https://continuumcoder.github.io/NEFI/geometry/) |
-| **Operators & physics** | FFT convolution, NV dipolar spectra, magnetostatics, Radon, Poisson, elliptic PDEs with implicit-function adjoints, implicit-Euler heat with a discrete adjoint, waves with PML and checkpointing, Born and Lippmann–Schwinger scattering, angular-spectrum optics, Gray–Scott — [physics](https://continuumcoder.github.io/NEFI/physics/) |
-| **Losses & priors** | MSE, log-MSE, Poisson NLL, Huber, TV, ℓ1, Laplacian, physics penalties; value heads as hard priors; a prior DSL (`"nonnegative + sparse"`) — [zoo](https://continuumcoder.github.io/NEFI/zoo/) |
+| **Representations** | neural fields with annealed Fourier features, grids, hash grids, low-rank, level sets, Gaussian splats, Deep Decoder; geometric fields (layered media, anomalies, star shapes, warps) with adaptive annealing, capacity growth and held-out selection — [geometry](https://cab-lab-princeton.github.io/NEFI/geometry/) |
+| **Operators & physics** | FFT convolution, NV dipolar spectra, magnetostatics, Radon, Poisson, elliptic PDEs with implicit-function adjoints, implicit-Euler heat with a discrete adjoint, waves with PML and checkpointing, Born and Lippmann–Schwinger scattering, angular-spectrum optics, Gray–Scott — [physics](https://cab-lab-princeton.github.io/NEFI/physics/) |
+| **Losses & priors** | MSE, log-MSE, Poisson NLL, Huber, TV, ℓ1, Laplacian, physics penalties; value heads as hard priors; a prior DSL (`"nonnegative + sparse"`) — [zoo](https://cab-lab-princeton.github.io/NEFI/zoo/) |
 | **Curriculum & solver** | multiscale stages, annealing resets, LR schedules, discrepancy stopping, NaN guard with rollback, EMA, restarts, time budgets, checkpoints |
-| **Diagnostics** | sensitivity maps, iter-0 gradient and center bias, filter-kernel rows G<sub>θ</sub>e<sub>i</sub>, singular values, energy barriers, the data-fit paradox — [diagnostics](https://continuumcoder.github.io/NEFI/tutorials/05_diagnostics/) |
-| **Benchmarking** | paired samples × seeds, 95 % confidence intervals, runtime and memory, ablations, sweeps, inverse-crime guard, sharded cluster campaigns — [benchmarking](https://continuumcoder.github.io/NEFI/tutorials/06_benchmarking/) |
-| **Auto-tuning** | gauges, budgets and learning rates against the noise floor, Morozov regularization, an acquisition report — [auto-tuning](https://continuumcoder.github.io/NEFI/autotune/) |
-| **Edge refinement** | multi-phase level sets, phase fields, TV sharpening, with a data-fit acceptance test and a control run — [refinement](https://continuumcoder.github.io/NEFI/refinement/) |
-| **Visualization** | comparison figures, measurement viewers, training dynamics, 3-D slices and isosurfaces, a dependency-free interactive 3-D viewer — [visualization](https://continuumcoder.github.io/NEFI/visualization/) |
-| **Performance** | batched multi-measurement solving (`vmap`), whole-step `torch.compile`, CUDA graphs, mixed precision, a fast heat stencil — [performance](https://continuumcoder.github.io/NEFI/performance/) |
-| **CLI** | `nefi list · run · bench · bench-merge · diagnose · autotune · ablate · sweep` — [reference](https://continuumcoder.github.io/NEFI/reference/cli/) |
+| **Diagnostics** | sensitivity maps, iter-0 gradient and center bias, filter-kernel rows G<sub>θ</sub>e<sub>i</sub>, singular values, energy barriers, the data-fit paradox — [diagnostics](https://cab-lab-princeton.github.io/NEFI/tutorials/05_diagnostics/) |
+| **Benchmarking** | paired samples × seeds, 95 % confidence intervals, runtime and memory, ablations, sweeps, inverse-crime guard, sharded cluster campaigns — [benchmarking](https://cab-lab-princeton.github.io/NEFI/tutorials/06_benchmarking/) |
+| **Auto-tuning** | gauges, budgets and learning rates against the noise floor, Morozov regularization, an acquisition report — [auto-tuning](https://cab-lab-princeton.github.io/NEFI/autotune/) |
+| **Edge refinement** | multi-phase level sets, phase fields, TV sharpening, with a data-fit acceptance test and a control run — [refinement](https://cab-lab-princeton.github.io/NEFI/refinement/) |
+| **Visualization** | comparison figures, measurement viewers, training dynamics, 3-D slices and isosurfaces, a dependency-free interactive 3-D viewer — [visualization](https://cab-lab-princeton.github.io/NEFI/visualization/) |
+| **Performance** | batched multi-measurement solving (`vmap`), whole-step `torch.compile`, CUDA graphs, mixed precision, a fast heat stencil — [performance](https://cab-lab-princeton.github.io/NEFI/performance/) |
+| **CLI** | `nefi list · run · bench · bench-merge · diagnose · autotune · ablate · sweep` — [reference](https://cab-lab-princeton.github.io/NEFI/reference/cli/) |
 
 ## Instances
 
 Seventeen registered problems, each runnable end to end with `nefi run <name> --smoke` and
-documented on its own [page](https://continuumcoder.github.io/NEFI/instances/).
+documented on its own [page](https://cab-lab-princeton.github.io/NEFI/instances/).
 
 | group | instance | problem | physics |
 |---|---|---|---|
@@ -152,16 +152,16 @@ documented on its own [page](https://continuumcoder.github.io/NEFI/instances/).
 ## Interactive 3-D
 
 <p align="center">
-  <a href="https://continuumcoder.github.io/NEFI/gallery/3d/"><img src="docs/assets/gallery/viewer-ct3d.png" width="820" alt="Interactive viewer: ground truth, smooth and edge-refined isosurfaces of a 3-D CT reconstruction, with IoU and Dice"></a>
+  <a href="https://cab-lab-princeton.github.io/NEFI/gallery/3d/"><img src="docs/assets/gallery/viewer-ct3d.png" width="820" alt="Interactive viewer: ground truth, smooth and edge-refined isosurfaces of a 3-D CT reconstruction, with IoU and Dice"></a>
 </p>
-<p align="center"><sub>Ground truth · smooth · edge-refined, one camera, IoU and Dice computed in the browser — a self-contained HTML file written by <code>nefi.viz.save_volume_viewer</code>. <a href="https://continuumcoder.github.io/NEFI/gallery/3d/">Rotate it live →</a></sub></p>
+<p align="center"><sub>Ground truth · smooth · edge-refined, one camera, IoU and Dice computed in the browser — a self-contained HTML file written by <code>nefi.viz.save_volume_viewer</code>. <a href="https://cab-lab-princeton.github.io/NEFI/gallery/3d/">Rotate it live →</a></sub></p>
 
 ## Reproducing the papers
 
 `configs/nv_relaxometry_paper.yaml` and `configs/thermal_tomography_paper.yaml` hold the papers'
-settings table by table. The [server runbook](https://continuumcoder.github.io/NEFI/reproduce_papers/)
+settings table by table. The [server runbook](https://cab-lab-princeton.github.io/NEFI/reproduce_papers/)
 lists the exact commands for the headline tables, their GPU cost and the caveats to check
-first, and the [paper → code map](https://continuumcoder.github.io/NEFI/paper_mapping/) traces
+first, and the [paper → code map](https://cab-lab-princeton.github.io/NEFI/paper_mapping/) traces
 every equation to the code.
 
 ```bash
@@ -173,25 +173,25 @@ nefi run configs/thermal_tomography_paper.yaml --device cuda             # one N
 ## Development
 
 ```bash
-git clone https://github.com/ContinuumCoder/NEFI.git && cd NEFI
+git clone https://github.com/CAB-Lab-Princeton/NEFI.git && cd NEFI
 pip install -e ".[dev]"      # + pytest, ruff, mypy, scikit-image, matplotlib, typer, rich
 make test                    # fast CPU suite; make lint, make smoke
 ```
 
 The latest development version installs with
-`pip install git+https://github.com/ContinuumCoder/NEFI.git`; see [CONTRIBUTING.md](CONTRIBUTING.md).
+`pip install git+https://github.com/CAB-Lab-Princeton/NEFI.git`; see [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## Documentation
 
-[Get started](https://continuumcoder.github.io/NEFI/getting-started/) ·
-[Tutorials](https://continuumcoder.github.io/NEFI/getting-started/#the-tutorials) ·
-[Guides](https://continuumcoder.github.io/NEFI/guides/) ·
-[Gallery](https://continuumcoder.github.io/NEFI/gallery/) ·
-[Physics](https://continuumcoder.github.io/NEFI/physics/) ·
-[Instances](https://continuumcoder.github.io/NEFI/instances/) ·
-[Research](https://continuumcoder.github.io/NEFI/research/) ·
-[API](https://continuumcoder.github.io/NEFI/api/) ·
-[CLI](https://continuumcoder.github.io/NEFI/reference/cli/) ·
+[Get started](https://cab-lab-princeton.github.io/NEFI/getting-started/) ·
+[Tutorials](https://cab-lab-princeton.github.io/NEFI/getting-started/#the-tutorials) ·
+[Guides](https://cab-lab-princeton.github.io/NEFI/guides/) ·
+[Gallery](https://cab-lab-princeton.github.io/NEFI/gallery/) ·
+[Physics](https://cab-lab-princeton.github.io/NEFI/physics/) ·
+[Instances](https://cab-lab-princeton.github.io/NEFI/instances/) ·
+[Research](https://cab-lab-princeton.github.io/NEFI/research/) ·
+[API](https://cab-lab-princeton.github.io/NEFI/api/) ·
+[CLI](https://cab-lab-princeton.github.io/NEFI/reference/cli/) ·
 [Contributing](CONTRIBUTING.md) · [Changelog](CHANGELOG.md)
 
 Every page is also readable as markdown under [`docs/`](docs/).

@@ -226,7 +226,7 @@ def social_card(path: Path, hero: Path) -> None:
     ax.text(
         72,
         580,
-        "CAB Lab · Princeton University   ·   github.com/ContinuumCoder/NEFI",
+        "CAB Lab · Princeton University   ·   github.com/CAB-Lab-Princeton/NEFI",
         fontsize=13,
         family="DejaVu Sans",
         color="#a39fc4",

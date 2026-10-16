@@ -50,7 +50,7 @@ tomography) instances with paper-scale configs, diagnostics, benchmark protocol 
   `scripts/sync_to_server.sh`, `environment.yml`, `requirements.txt`, GitHub Actions CI,
   pre-commit, `Makefile` (`test`, `lint`, `docs`, `smoke`).
 - **Documentation**: tutorials 01–08, FAQ, paper → code mapping, generated API reference.
-- **Documentation site** (MkDocs Material, <https://continuumcoder.github.io/NEFI/>): a landing
+- **Documentation site** (MkDocs Material, <https://cab-lab-princeton.github.io/NEFI/>): a landing
   page, navigation by task (get started, guides, gallery, physics, instances, research,
   reference), a gallery of all 17 systems with a 3-D showcase of interactive viewers, an "At a
   glance" card on every instance page, a physics overview and a heat-solver page, research pages
