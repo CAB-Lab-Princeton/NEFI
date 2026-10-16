@@ -18,7 +18,7 @@ abstract: >-
   through a differentiable forward model of the instrument as a hard constraint, and optimized
   with an adaptive coarse-to-fine, frequency-annealed curriculum. The library generalizes the
   NeTMY and NeFTY papers and ships diagnostics, a benchmark protocol with an inverse-crime guard,
-  auto-tuning, edge refinement, visualization and seventeen registered problems from 1-D to 3-D.
+  auto-tuning, edge refinement, visualization and a growing set of registered problems from 1-D to 3-D.
 keywords:
   - inverse problems
   - neural fields

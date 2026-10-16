@@ -1,7 +1,7 @@
 ---
 hide:
   - toc
-description: The 17 registered inverse problems, from the paper instances and classic imaging to elliptic PDEs, wave / optics / reaction systems and volumetric tomography, each runnable end to end with one command.
+description: The registered inverse problems, from the paper instances and classic imaging to elliptic PDEs, wave / optics / reaction systems and volumetric tomography, each runnable end to end with one command.
 ---
 
 # Instances

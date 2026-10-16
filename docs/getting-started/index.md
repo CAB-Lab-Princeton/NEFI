@@ -58,7 +58,7 @@ Check the installation:
 
 ```bash
 nefi --version
-nefi list instances        # the 17 registered problems
+nefi list instances        # the registered problems
 nefi run toy1d --smoke     # generate → invert → evaluate, a few seconds on a CPU
 ```
 
@@ -141,7 +141,7 @@ and [Bring your own problem](../byop.md) explains every automatic decision of `f
 
     ---
 
-    The [gallery](../gallery/index.md) of 17 systems, the [3-D showcase](../gallery/3d.md) with
+    The [gallery](../gallery/index.md) of all registered systems, the [3-D showcase](../gallery/3d.md) with
     interactive viewers, and the [instance catalogue](../instances/index.md).
 
 -   :material-flask-outline: __Reproduce the papers__

@@ -43,16 +43,48 @@
         <img src="{{ 'assets/hero.png' | url }}" width="1620" height="976"
              alt="Four inverse problems: NV noise spectra to spin sources, a sparse-view sinogram to an attenuation map, an NV stray-field image to a sheet current, acoustic traces to a sound-speed map">
         <figcaption>
-          Four of the 17 registered problems, each showing the simulated measurement on the left
+          Four of the registered problems, each showing the simulated measurement on the left
           and the reconstruction on the right. Every system runs on a CPU in under 15&nbsp;s.
         </figcaption>
       </figure>
     </div>
-    <div class="md-grid nf-hero__stats">
-      <div class="nf-stat"><b>17</b><span>registered inverse problems, 1-D to 3-D</span></div>
-      <div class="nf-stat"><b>36</b><span>differentiable forward operators</span></div>
-      <div class="nf-stat"><b>2</b><span>papers in the series so far: NeTMY and NeFTY</span></div>
-      <div class="nf-stat"><b>20</b><span>lines to bring your own physics</span></div>
+    <div class="md-grid nf-hero__series" aria-label="What nefi covers so far">
+      <div class="nf-series">
+        <span class="nf-series__label">Instruments</span>
+        <span class="nf-series__items">
+          <a href="{{ 'instances/nv_relaxometry/' | url }}">NV relaxometry</a>,
+          <a href="{{ 'instances/thermal_tomography/' | url }}">thermal tomography</a>,
+          <a href="{{ 'instances/sparse_view_ct/' | url }}">sparse-view CT</a>,
+          <a href="{{ 'instances/eit/' | url }}">EIT</a>,
+          <a href="{{ 'instances/wave_fwi/' | url }}">full-waveform inversion</a>,
+          <a href="{{ 'instances/holography/' | url }}">holography</a>,
+          <a href="{{ 'instances/dot3d/' | url }}">diffuse optical tomography</a>,
+          <a class="nf-series__more" href="{{ 'instances/' | url }}" aria-label="All registered instances">…</a>
+        </span>
+      </div>
+      <div class="nf-series">
+        <span class="nf-series__label">Physics</span>
+        <span class="nf-series__items">
+          dipolar noise spectra, heat diffusion, elliptic PDEs, acoustic waves, scattering,
+          angular-spectrum optics, reaction–diffusion,
+          <a class="nf-series__more" href="{{ 'physics/' | url }}" aria-label="All physics modules">…</a>
+        </span>
+      </div>
+      <div class="nf-series">
+        <span class="nf-series__label">Representations</span>
+        <span class="nf-series__items">
+          neural fields, grids, hash grids, level sets, Gaussian splats, layered media, star shapes,
+          <a class="nf-series__more" href="{{ 'geometry/' | url }}" aria-label="All representations">…</a>
+        </span>
+      </div>
+      <div class="nf-series">
+        <span class="nf-series__label">Papers</span>
+        <span class="nf-series__items">
+          <a href="{{ 'research/papers/' | url }}#netmy--neural-fields-for-nv-center-inverse-sensing">NeTMY</a> on NV-center sensing,
+          <a href="{{ 'research/papers/' | url }}#nefty--neural-field-thermal-tomography">NeFTY</a> on thermal tomography,
+          <a class="nf-series__more" href="{{ 'research/' | url }}" aria-label="The research behind nefi">…</a>
+        </span>
+      </div>
     </div>
   </section>
 {% endblock %}

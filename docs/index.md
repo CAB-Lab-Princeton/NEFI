@@ -98,9 +98,9 @@ working: the command line, the benchmark protocol, the diagnostics and the figur
 
     ---
 
-    17 registered problems: NV magnetometry, thermography, CT, microscopy, EIT, Darcy flow,
+    Registered problems so far: NV magnetometry, thermography, CT, microscopy, EIT, Darcy flow,
     full-waveform inversion, diffraction tomography, holography, reaction–diffusion, diffuse
-    optics and photoacoustics — each runnable with `nefi run <name> --smoke`.
+    optics and photoacoustics, each runnable with `nefi run <name> --smoke`.
 
     [:octicons-arrow-right-24: Instance catalogue](instances/index.md){ .nf-more }
 
@@ -183,7 +183,7 @@ working: the command line, the benchmark protocol, the diagnostics and the figur
 
 <p class="nf-kicker">Gallery</p>
 
-## Seventeen systems, one library
+## A growing catalogue of systems
 
 <p class="nf-intro">Reconstructions from single simulated measurements. The data always come
 from an independent, finer simulator than the one being inverted. Open a tile for the physics,
@@ -245,7 +245,7 @@ data. [Bring your own problem →](byop.md)
 
 ### Method developers
 
-Compare representations, priors, schedules and optimizers on 17 problems under one fair
+Compare representations, priors, schedules and optimizers on every registered problem under one fair
 protocol: shared objectives, paired seeds, confidence intervals, an inverse-crime guard, and
 diagnostics that explain *why* a method wins. [Benchmarking →](tutorials/06_benchmarking.md)
 
@@ -339,7 +339,7 @@ explains why soft-constrained PINNs fit the data but not the interior.
     ```bash
     pip install nefi                  # torch, numpy, scipy, pyyaml, tqdm
     pip install "nefi[viz]"           # + matplotlib for figures (--plot)
-    nefi list instances               # 17 registered problems
+    nefi list instances               # the registered problems
     nefi run toy1d --smoke            # a few seconds on a CPU
     ```
 

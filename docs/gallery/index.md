@@ -1,13 +1,13 @@
 ---
 hide:
   - toc
-description: Seventeen physical systems reconstructed by the same recipe — overview figure, per-system comparisons and optimization animations from one gallery run on a CPU.
+description: The registered physical systems reconstructed by the same recipe: overview figure, per-system comparisons and optimization animations from one gallery run on a CPU.
 ---
 
 # Gallery
 
-Seventeen inverse problems — 1-D, 2-D and volumetric, linear and nonlinear, elliptic,
-hyperbolic, parabolic and spectral — solved by the same recipe: a coordinate neural field, the
+The registered inverse problems, 1-D, 2-D and volumetric, linear and nonlinear, elliptic,
+hyperbolic, parabolic and spectral, are all solved by the same recipe: a coordinate neural field, the
 instrument's physics as a hard constraint, a coarse-to-fine curriculum. Every measurement is
 simulated with an **independent, finer model** than the one being inverted (no inverse crime),
 so each reconstruction has to cope with model error as well as noise.
@@ -16,8 +16,8 @@ so each reconstruction has to cope with model error as well as noise.
 ![Gallery overview of the twelve 1-D and 2-D systems, each shown as ground truth, measurement and reconstruction with its metric, solve time and step count](../assets/gallery/overview-2d.png)
 <figcaption markdown="span">The twelve 1-D and 2-D systems as ground truth · measurement ·
 reconstruction, from one run of `examples/gallery.py` (smoke presets at 0.2 × the default
-budgets, CPU, 182 s for all 17 systems). The five volumetric systems are on the
-[3-D showcase](3d.md); the [full overview of all 17](../assets/gallery/overview.png) opens at
+budgets, CPU, 182 s for all systems). The five volumetric systems are on the
+[3-D showcase](3d.md); the [full overview of all systems](../assets/gallery/overview.png) opens at
 full resolution. Click any figure to zoom.</figcaption>
 </figure>
 

@@ -106,7 +106,7 @@ rate and curriculum; every decision is logged and overridable
 <p align="center">
   <img src="docs/assets/gallery/overview-2d.png" width="880" alt="Twelve 1-D and 2-D systems, each as ground truth, measurement and reconstruction with PSNR, solve time and steps">
 </p>
-<p align="center"><sub>Twelve of the 17 registered systems as ground truth · measurement · reconstruction — one gallery run on a CPU. <a href="https://cab-lab-princeton.github.io/NEFI/gallery/">Browse the gallery →</a></sub></p>
+<p align="center"><sub>Twelve of the registered systems as ground truth · measurement · reconstruction, from one gallery run on a CPU. <a href="https://cab-lab-princeton.github.io/NEFI/gallery/">Browse the gallery →</a></sub></p>
 
 ## What's inside
 
@@ -126,7 +126,7 @@ rate and curriculum; every decision is logged and overridable
 
 ## Instances
 
-Seventeen registered problems, each runnable end to end with `nefi run <name> --smoke` and
+The registered problems, each runnable end to end with `nefi run <name> --smoke` and
 documented on its own [page](https://cab-lab-princeton.github.io/NEFI/instances/).
 
 | group | instance | problem | physics |
