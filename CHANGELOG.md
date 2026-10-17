@@ -5,10 +5,15 @@ All notable changes to this project are documented here. The format follows
 
 ## [Unreleased]
 
+## [0.1.2] - 2026-10-17
+
+No code changes. The package metadata follows the project's move.
+
 ### Changed
 - The project now lives at <https://github.com/CAB-Lab-Princeton/NEFI>, and the documentation site
-  at <https://cab-lab-princeton.github.io/NEFI/>. The release workflow skips distributions that are
-  already on PyPI, so a release run can be repeated safely.
+  at <https://cab-lab-princeton.github.io/NEFI/>; the package links on PyPI point there.
+- The release workflow skips distributions that are already on PyPI, so a release run can be
+  repeated safely, and the landing page describes the catalogue without hard-coded counts.
 
 ## [0.1.1] - 2026-09-27
 

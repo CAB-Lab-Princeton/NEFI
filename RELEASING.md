@@ -29,7 +29,7 @@ repository: open **Settings → Pages → Build and deployment** and set **Sourc
 
 ```bash
 # bump the version in pyproject.toml and nefi/__init__.py, update CHANGELOG.md, then
-git tag v0.1.1
+git tag v0.1.2
 git push origin main --tags
 ```
 

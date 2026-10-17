@@ -40,7 +40,7 @@ from .solve import (
     refine_edges,
 )
 
-__version__ = "0.1.1"
+__version__ = "0.1.2"
 
 _logging.getLogger("nefi").addHandler(_logging.NullHandler())
 
